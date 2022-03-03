@@ -80,7 +80,7 @@ const material6 = new THREE.MeshStandardMaterial({
 });
 
 
-// Sprit Material
+// Sprit Materials
 // const materialsprit = new THREE.SpriteMaterial({
 //   map: new THREE.TextureLoader().load('ice.jpg')
 // });
@@ -240,7 +240,9 @@ function animate() {
   torus.rotation.y += 0.01;
   torus.rotation.z += 0.01;
 
-
+  matcap.rotation.y += 0.01;
+  cylinder.rotation.y += 0.01;
+  icso.rotation.y += 0.01;
   renderer.render(scene, camera);
   controls.update();
 };
