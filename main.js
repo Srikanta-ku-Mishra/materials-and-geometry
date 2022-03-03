@@ -59,7 +59,7 @@ const material3 = new THREE.MeshPhongMaterial({
   map: new THREE.TextureLoader().load('fire.jpg')
   
 });
-
+// hello
 // lineBasic or Dashed material you have to use this code
 const material4 = new THREE.MeshBasicMaterial({
   map: new THREE.TextureLoader().load('ice.jpg')
